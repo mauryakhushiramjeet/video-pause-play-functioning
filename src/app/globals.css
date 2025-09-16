@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-:root {
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,8 +18,11 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
+ @theme inline{
+  --background-image-formBg:url('/images/light.jpg')
+ }
 body {
   background: var(--background);
   color: var(--foreground);
