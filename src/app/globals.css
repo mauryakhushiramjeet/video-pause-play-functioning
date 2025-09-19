@@ -21,7 +21,15 @@
 } */
 
  @theme inline{
-  --background-image-formBg:url('/images/light.jpg')
+  --background-image-formBg:url('/images/light.jpg');
+  --breakpoint-481sm: 481px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-992md: 992px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+  --breakpoint-16603xl: 1660px;
  }
 body {
   background: var(--background);

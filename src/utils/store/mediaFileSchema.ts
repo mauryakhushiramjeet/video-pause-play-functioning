@@ -1,10 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-interface MediaState {
+export interface MediaState {
   videos: string[]|null; 
   song: string | null;
 }
-const initialState: MediaState = {
+export const initialState: MediaState = {
   videos: null,
   song: null,
 };
